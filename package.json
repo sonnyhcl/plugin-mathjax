@@ -10,6 +10,7 @@
     },
     "dependencies": {
         "crc": "^3.2.1",
+        "speech-rule-engine": "^1.2.0",
         "mathjax-node": "0.5.2",
         "q": "^1.1.2"
     },
