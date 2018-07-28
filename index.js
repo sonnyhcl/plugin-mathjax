@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 var Promise = require('q');
-var crc     = require('crc');
-var mjAPI   = require('mathjax-node/lib/mj-single.js');
-
-var started   = false;
-=======
 var Q = require('q');
 var fs = require('fs');
 var path = require('path');
@@ -13,7 +7,6 @@ var exec = require('child_process').exec;
 var mjAPI = require('mathjax-node/lib/mj-single.js');
 
 var started = false;
->>>>>>> master
 var countMath = 0;
 var cache     = {};
 
@@ -42,7 +35,10 @@ function prepareMathJax() {
 
     @param {String} tex
     @param {Object} options
-    @return {Promise<String>}
+    @return {
+    
+    
+    <String>}
 */
 function convertTexToSvg(tex, options) {
     var d = Promise.defer();
